@@ -659,7 +659,7 @@ export default function PathPlanningVisualizer() {
                   const overlay = p
                     ? "!bg-emerald-400"
                     : v
-                    ? "bg-sky-700/20"
+                    ? "bg-sky-700/30"
                     : "";
                   return (
                     <div
