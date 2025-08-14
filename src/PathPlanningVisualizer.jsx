@@ -652,14 +652,14 @@ export default function PathPlanningVisualizer() {
                   const v = visitedSet.has(k);
                   const p = pathSet.has(k);
                   const base = cell.wall
-                    ? "bg-slate-700"
+                    ? "bg-slate-500"
                     : cell.weight > 1
                     ? "bg-amber-900/30"
                     : "bg-slate-900";
                   const overlay = p
-                    ? "!bg-emerald-400 z-10"
+                    ? "!bg-emerald-400"
                     : v
-                    ? "bg-sky-700/40"
+                    ? "bg-sky-700/20"
                     : "";
                   return (
                     <div
@@ -675,15 +675,15 @@ export default function PathPlanningVisualizer() {
                       title={`r${r} c${c}${cell.wall?" wall":""}${cell.weight>1?` w=${cell.weight}`:""}`}
                     >
                       {p && <div className="absolute inset-0 bg-emerald-400 z-10"></div>}
-                      {v && !p && <div className="absolute inset-0 bg-sky-700/40 z-10"></div>}
+                      {v && !p && <div className="absolute inset-0 bg-sky-700/30 z-10"></div>}
 
                       {isStart && (
-                        <div className="absolute inset-0 flex items-center justify-center text-sky-500 text-[10px]">
+                        <div className="absolute inset-0 flex items-center justify-center text-sky-500 text-[10px] z-10">
                           <Flag className="h-4 w-4"/>
                         </div>
                       )}
                       {isGoal && (
-                        <div className="absolute inset-0 flex items-center justify-center text-pink-400 text-[10px]">
+                        <div className="absolute inset-0 flex items-center justify-center text-pink-400 text-[10px] z-10">
                           <MapPinned className="h-4 w-4"/>
                         </div>
                       )}
