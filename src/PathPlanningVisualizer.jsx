@@ -657,7 +657,7 @@ export default function PathPlanningVisualizer() {
                     ? "bg-amber-900/30"
                     : "bg-slate-900";
                   const overlay = p
-                    ? "border-emerald-400"
+                    ? "border-emerald-400 bg-red-500"
                     : v
                     ? "bg-sky-700/40"
                     : "";
