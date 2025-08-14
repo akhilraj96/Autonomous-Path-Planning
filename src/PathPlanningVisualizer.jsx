@@ -657,7 +657,7 @@ export default function PathPlanningVisualizer() {
                     ? "bg-amber-900/30"
                     : "bg-slate-900";
                   const overlay = p
-                    ? "ring-2 ring-emerald-400"
+                    ? "bg-emerald-200"
                     : v
                     ? "bg-sky-700/40"
                     : "";
@@ -675,7 +675,7 @@ export default function PathPlanningVisualizer() {
                       title={`r${r} c${c}${cell.wall?" wall":""}${cell.weight>1?` w=${cell.weight}`:""}`}
                     >
                       {isStart && (
-                        <div className="absolute inset-0 flex items-center justify-center text-emerald-400 text-[10px]">
+                        <div className="absolute inset-0 flex items-center justify-center text-sky-500 text-[10px]">
                           <Flag className="h-4 w-4"/>
                         </div>
                       )}
@@ -721,7 +721,7 @@ export default function PathPlanningVisualizer() {
             </p>
           </div>
           <a href="#" className="hover:text-slate-300 inline-flex items-center gap-1">
-            <Github className="h-3.5 w-3.5"/> Add to your GitHub
+            <Github className="h-3.5 w-3.5"/> GitHub
           </a>
         </footer>
       </div>
