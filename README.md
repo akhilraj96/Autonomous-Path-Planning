@@ -14,16 +14,16 @@ Explore the live version of the Pathfinding Visualizer here:
 
 ## 📌 Table of Contents
 
-* [Project Overview](#project-overview)
-* [Features](#features)
-* [Algorithms](#algorithms)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Components](#components)
-* [Customization](#customization)
-* [Deployment](#deployment)
-* [License](#license)
-* [Acknowledgements](#acknowledgements)
+* [Project Overview](#-project-overview)
+* [Features](#-features)
+* [Algorithms](#-algorithms)
+* [Installation](#-installation)
+* [Usage](#-usage)
+* [Components](#-components)
+* [Customization](#-customization)
+* [Deployment](#-deployment)
+* [License](#-license)
+* [Acknowledgements](#-acknowledgements)
 
 ---
 
