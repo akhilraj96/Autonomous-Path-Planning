@@ -723,7 +723,7 @@ export default function PathPlanningVisualizer() {
               A* uses {diag?"Euclidean":"Manhattan"} heuristic. Dijkstra ignores the heuristic. RRT* is an approximate, discrete demo.
             </p>
           </div>
-          <a href="#" className="hover:text-slate-300 inline-flex items-center gap-1">
+          <a href="https://github.com/akhilraj96/Autonomous-Path-Planning" className="hover:text-slate-300 inline-flex items-center gap-1">
             <Github className="h-3.5 w-3.5"/> GitHub
           </a>
         </footer>

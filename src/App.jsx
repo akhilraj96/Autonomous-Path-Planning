@@ -1,4 +1,4 @@
-import PathPlanningVisualizer from "./PathPlanningVisualizer";
+import PathPlanningVisualizer from "./algorithms/PathPlanningVisualizer";
 
 export default function App() {
   return (
